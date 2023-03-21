@@ -1,6 +1,7 @@
 using Base.Threads, Plots
 
 include("differetnital.jl")
+default(linewidth=2)
 
 N = 9e24 # 1/m^3
 Na = 1.08e23 # 1/m^3
@@ -24,29 +25,37 @@ omegaa = 2.5e-6
 L = 0.3e-2
 V = 0.38
 
-Imax = 1e20
+Imax = 2.2e28
 FWHM = 9e-9
 
-I(t) = Imax * exp(-t^2 / FWHM^2)
+I(t) = Imax .* exp.(-4 .* log(2) .* t .^ 2 ./ FWHM .^ 2) 
 
-dt = 1e-13
+dt = 1e-12
 
-tspan = 20e-9
+tspan = 40e-9
 
 t = range(-tspan / 2, tspan / 2, step=dt)
 
-calculatedValues = Array{Float64}(undef, 3, length(t))
+calculatedValues = Array{Float64}(undef, 4, length(t))
 
-calculatedValues[1, 1] = N
+calculatedValues[1, 1] = 0
 calculatedValues[2, 1] = 0
 calculatedValues[3, 1] = Na
+calculatedValues[4, 1] = tauc_(0)
 
 for ii in 1:(length(t)-1)
-    calculatedValues[:, ii+1] = RK4(diffegy, t[ii+1], calculatedValues[:, ii], dt)
+    calculatedValues[1:3, ii+1] = RK4(diffegy, t[ii], calculatedValues[1:3, ii], dt)
+    calculatedValues[4, ii+1] = tauc_(calculatedValues[1, ii+1])
 end
 
 
 
-display(plot(calculatedValues[1,:]))
-display(plot(calculatedValues[2,:]))
-display(plot(calculatedValues[3,:]))
+display(plot(t, calculatedValues[1, :]))
+display(plot(t, calculatedValues[2, :]))
+display(plot(t, calculatedValues[3, :]))
+display(plot(t, calculatedValues[4, :]))
+
+eleje = 56
+vege = 56.5
+
+display(plot(t[floor(Int, end / 100 * eleje):floor(Int, end / 100 * vege)], calculatedValues[2, floor(Int, end / 100 * eleje):floor(Int, end / 100 * vege)]))
