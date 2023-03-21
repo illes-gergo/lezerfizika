@@ -1,3 +1,4 @@
+@time begin
 using Base.Threads, Plots
 
 include("differetnital.jl")
@@ -59,3 +60,5 @@ eleje = 56
 vege = 56.5
 
 display(plot(t[floor(Int, end / 100 * eleje):floor(Int, end / 100 * vege)], calculatedValues[2, floor(Int, end / 100 * eleje):floor(Int, end / 100 * vege)]))
+
+end
