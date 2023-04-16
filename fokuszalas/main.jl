@@ -8,7 +8,7 @@ w0 = 1e-2;
 t = 0
 z = range(-1e-2, 1e-2, 5000) .+ f
 z_ = range(-1e-2, 1e-2, 5000) .+ f
-x = range(-1e-2, 1e-2, 1000)
+x = range(-1e-2, 1e-2, 1000) .* 2 
 
 Z, X = ndgrid(z_, x)
 
