@@ -16,7 +16,7 @@ plotlyjs()
 rawData = readdlm(pwd() * "/fokuszalas/ATHz.txt", ',')
 nu = rawData[:, 1] * 1e12
 spektrum = rawData[:, 2]
-#display(plot(spektrum))
+display(plot(spektrum))
 
 @time eredmeny = superPos(2, 1000, nu, spektrum, z, 0)
 display(plot(real(eredmeny)))
