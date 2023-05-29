@@ -1,0 +1,88 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[magyar]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\title{\bfseries Lézerfizika tételsor}
+\author{Illés Gergő, Sarkadi Balázs}
+\begin{document}
+\maketitle
+
+\section{Mit rövidít a ,,laser'' mozaikszó?}
+\textbf Light \textbf Amplification by \textbf Stimulated \textbf Emission \textbf Radiation.
+
+\section{Min alapszik a mátrixokkal való sugárkövetés (mátrixoptika)?}
+A mátrixoptikai leírásban a sugarakat 2 paraméterrel jellemezzük. Az optikai tengelytől való távolsággal és az optikai tengellyel bezárt szöggel. Továbbá paraxiális közelítésben vagyunk ami azt jelenti, hogy a szögek szinuszait magával a szög értékével közelítjük. Egyes optikai elrendezést úgynevezett sugártranszfer (ABCD) mátrixszal jellemezhetünk, ami a következő egyenletrendszert kódolja.
+\begin{equation}
+\begin{pmatrix}
+A&B\\C&D
+\end{pmatrix}\cdot
+\begin{pmatrix}
+x_1\\\varphi_1
+\end{pmatrix}=\begin{pmatrix}
+x_2\\\varphi_2
+\end{pmatrix}
+\end{equation}
+
+\section{Adja meg $f$ fókusztávolságú vékony lencse és $d$ távolságon való terjedés mátrixát!}
+\begin{equation}
+\begin{pmatrix}
+1&0\\-\frac{1}{f}&1
+\end{pmatrix}\;\text{és}\;
+\begin{pmatrix}
+1&d\\0&1
+\end{pmatrix}
+\end{equation}
+\section{Adja meg az optikai rezonátor stabilitási feltételét!}
+\begin{equation}
+0\leq\left(1-\frac{L}{R_1}\right)\left(1-\frac{L}{R_2}\right)\leq 1
+\end{equation}
+
+\section{Határozza meg a Gauss-nyalábok átmérőjét és görbületi sugarát adott helyen a nyalábnyak és a hullámhossz függvényében!}
+\begin{align}
+W(z) &= w_0\cdot\sqrt{1+\left(\frac{z}{z_R}\right)^2}\\
+R(z) &= z\cdot\left[1+\left(\frac{z_R}{z}\right)^2\right]\\
+z_R &= \frac{nw_0^2\pi}{\lambda}
+\end{align}
+\section{Definiálja a Gauss nyalábokra felírható komplex nyaláb paramétert! Adja meg, hogy az 1-es számú síkban felvett $q_1$ hogyan viszonyol a 2-es síkban felvett $q_2$-höz!}
+\begin{align}
+q(z) &= z+iz_R\\
+q_2 &= \frac{Aq_1+B}{Cq_1+D}
+\end{align}
+\section{Mekkora a frekvenciakülönbség egy L hosszúságú rezonátorban kialakuló módusok közötti frekvenciakülönbség?}
+\begin{equation}
+\Delta f = \frac{c}{2L}
+\end{equation}
+\section{Mi az összefüggés a foton élettartama ($\tau_p$), a körülfordulási idő($\tau_{RT}$) és a ,,túlélési faktor'' ($S$) között? Mi az összefüggés a foton élettartam és ($Q$) minőségi faktor között?}
+\begin{align}
+\tau_p &= \frac{\tau_{RT}}{1-S}\\
+\tau_p &= \frac{Q}{\omega_0}
+\end{align}
+\section{Definiálja Einstein szerinti leírásban lévő $B_{12}$ abszorpciós, $B_{21}$ kényszerített emissziós és $A_{21}$ spontán emissziós együtthatót!}
+\begin{align}
+\left.\frac{dN_2}{dt}\right\vert_{sp.e.}&=-A_{21}\cdot N_2\\
+\left.\frac{dN_2}{dt}\right\vert_{st.e.}&=-B_{21}\cdot N_2\cdot \rho(\nu)\\
+\left.\frac{dN_2}{dt}\right\vert_{abs.}&=B_{12}\cdot N_1\cdot \rho(\nu)\\
+\frac{N_2}{N_1}&=\frac{B_{12}\cdot\rho(\nu)}{A_{21}+B_{21}\cdot\rho(\nu)}
+\end{align}
+\section{Hogy viszonyulnak egymáshoz a kényszerített emisszió által kibocsátott és az azt kiváltó foton tulajdonságai?}
+Frekvencia, polarizáció és haladási irány megegyezik.
+\section{Definiálja a hatáskeresztmetszet empirikus jelentését!}
+A hatáskeresztmetszet a részecske olyan környezete ahol a fotonokkal interakcióba léphet.
+\section{Adja meg az összefüggést az erősítési együttható, az emissziós és abszorpciós hatáskeresztmetszetek és populációk közti összefüggést adott energiaszinten!}
+\begin{equation}
+\gamma(\nu)=N_2\sigma_{em}(\nu)-N_1\sigma_{abs}(\nu)
+\end{equation}
+\section{Írja fel egy három szintű lézer populációváltozásának egyenleteit s hatáskeresztmetszetek segítségével!}
+Fasz se tudja
+\section{Mi a spektrális kiszélesedés két fajtája? Mi a különbség az abszorpciós vagy emissziós szaturációban?}
+1, Homogén kiszélesedés:
+2, Inhomogén kiszélesedés: égethető
+\section{Mit jelent a Q-kapcsolás? Mekkora a Q-kapcsolt lézerek impulzushossza? Hogyan viszonyul ez a körülfutási időhöz?}
+A Q-kapcsolás lényege az, hogy pumpálás alatt megnöveljük a rezonátorban lévő veszteséget, így az erősítés alacsony lesz és nagyon sok részecskét tudunk gerjesztett állapotba juttatni, mivel a spontán kibocsátott fotonok nem erősödnek jelentősen. Ezután a veszteséget lecsökkentjük, ilyenkor a spontán emisszió jele nagyon gyorsan nagy mértékeben megnő. Ezzel nagyenergiájú rövid impulzusokat hozhatunk létre. Könyv: körüljárási idő: $\approx 1,75$ ns, impulzushossz: $\approx 7,1$ ns tehát nagyjából 5 körülfutás.
+\section{Ugyan ez a mulatság módusszinkronizált lézerre!}
+
+\end{document}
