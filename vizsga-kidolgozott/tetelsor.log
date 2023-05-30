@@ -1,149 +1,145 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.13)  30 MAY 2023 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2023.3.17)  30 MAY 2023 19:43
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**tetelsor.tex
-(./tetelsor.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30>
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**./tetelsor.tex
+(tetelsor.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(D:\Programok\miktex\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(D:\Programok\miktex\tex/latex/base\size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/03/28 3.87 The Babel package
-\babel@savecnt=\count193
-\U@D=\dimen141
-\l@unhyphenated=\language87
+(D:\Programok\miktex\tex/generic/babel\babel.sty
+Package: babel 2020/12/16 3.52 The Babel package
 
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+(D:\Programok\miktex\tex/generic/babel\babel.def
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count185
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+
+(D:\Programok\miktex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count194
+)
+\bbl@dirlevel=\count186
 
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/babel-hungarian/magyar.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\Programok\miktex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\Programok\miktex\tex/latex/babel-hungarian\magyar.ldf
 Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
 Package babel Info: Making ` an active character on input line 2819.
-\c@footnote@add=\count195
-\c@footnote@ch=\count196
+\c@footnote@add=\count187
+\c@footnote@ch=\count188
 ))
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/babel/locale/hu/babel-magyar.te
-x
-Package babel Info: Importing font and identification data for magyar
-(babel)             from babel-hu.ini. Reported on input line 11.
-) (f:/texlive/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(D:\Programok\miktex\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(D:\Programok\miktex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+(D:\Programok\miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
 )
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+(D:\Programok\miktex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(f:/texlive/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(D:\Programok\miktex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count197
-\Gm@cntv=\count198
-\c@Gm@tempcnt=\count199
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks17
-)
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip50
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks16
+
+(D:\Programok\miktex\tex/latex/geometry\geometry.cfg))
+(D:\Programok\miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(D:\Programok\miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+(D:\Programok\miktex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen150
+\@emptytoks=\toks17
+\ex@=\dimen148
 ))
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(D:\Programok\miktex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen149
 )
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+(D:\Programok\miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count192
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count193
+\leftroot@=\count194
 LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count195
+\DOTSCASE@=\count196
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen152
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen150
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count272
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
 \dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
-\tag@help=\toks19
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
-\andhelp@=\toks20
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks21
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
+\tag@help=\toks18
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
+\andhelp@=\toks19
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(D:\Programok\miktex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(D:\Programok\miktex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -151,28 +147,55 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
-\l__pdf_internal_box=\box53
+(D:\Programok\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\Programok\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\Programok\miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(./tetelsor.aux)
+(D:\Programok\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\Programok\miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(D:\Programok\miktex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count270
+\float@exts=\toks22
+\float@box=\box49
+\@float@everytoks=\toks23
+\@floatcapt=\box50
+)
+(D:\Programok\miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count271
+\l__pdf_internal_box=\box51
+) (tetelsor.aux)
 \openout1 = `tetelsor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -208,69 +231,108 @@ LaTeX Font Info:    ... okay on input line 11.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/base/article.cls
+(D:\Programok\miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen159
+\scratchbox=\box52
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen160
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks25
+) (D:\Programok\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+(D:\Programok\miktex\tex/latex/base\article.cls
 LaTeX Info: Redefining \cal on input line 497.
 LaTeX Info: Redefining \mit on input line 498.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+(D:\Programok\miktex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 
-(f:/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+(D:\Programok\miktex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{f:/texlive/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{f:/texli
-ve/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Overfull \hbox (5.49164pt too wide) in paragraph at lines 64--64
+{C:/Users/sarka/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (5.49164pt too wide) in paragraph at lines 74--74
 \T1/cmr/bx/n/17.28 ci-ós, $\OML/cmm/m/it/17.28 B[]$ \T1/cmr/bx/n/17.28 kény-sze
 -rí-tett emisszi-ós és $\OML/cmm/m/it/17.28 A[]$ \T1/cmr/bx/n/17.28 spon-tán em
 isszi-
  []
 
 [2]
-Overfull \hbox (14.60641pt too wide) in paragraph at lines 71--71
+Overfull \hbox (14.60641pt too wide) in paragraph at lines 83--83
 []\T1/cmr/bx/n/17.28 Hogy vi-szo-nyul-nak egy-más-hoz a kény-sze-rí-tett emissz
 ió
  []
 
-
-Overfull \hbox (1.5732pt too wide) in paragraph at lines 81--81
+[3]
+Overfull \hbox (1.5732pt too wide) in paragraph at lines 115--115
 \T1/cmr/bx/n/17.28 lönb-ség az ab-szorp-ci-ós vagy emisszi-ós sza-tu-rá-ci-ó-ba
-n? 
+n?
  []
 
-[3] [4] (./tetelsor.aux) ) 
+<longitudinalModes.png, id=22, 396.48125pt x 221.82875pt>
+File: longitudinalModes.png Graphic file (type png)
+<use longitudinalModes.png>
+Package pdftex.def Info: longitudinalModes.png  used on input line 128.
+(pdftex.def)             Requested size: 227.62206pt x 127.3542pt.
+[4]
+Overfull \hbox (4.5595pt too wide) in paragraph at lines 150--150
+\T1/cmr/bx/n/17.28 Mi-lyen össze-füg-gés van a FEL su-gár-zá-si hul-lám-hossza
+ []
+
+
+Overfull \hbox (2.08067pt too wide) in paragraph at lines 150--150
+\T1/cmr/bx/n/17.28 ($\OML/cmm/m/it/17.28 $\T1/cmr/bx/n/17.28 ), az un-du-lá-to
+r pe-ri-o-dus hossza ($\OT1/cmr/m/n/17.28 $\T1/cmr/bx/n/17.28 ), a wigg-ler ko
+ns-
+ []
+
+[5 <./longitudinalModes.png>]
+<Undulator.png, id=29, 587.94656pt x 243.91125pt>
+File: Undulator.png Graphic file (type png)
+<use Undulator.png>
+Package pdftex.def Info: Undulator.png  used on input line 159.
+(pdftex.def)             Requested size: 341.43307pt x 141.64354pt.
+ [6 <./Undulator.png>] (tetelsor.aux) ) 
 Here is how much of TeX's memory you used:
- 4474 strings out of 476017
- 72068 string characters out of 5789774
- 1861660 words of memory out of 5000000
- 24923 multiletter control sequences out of 15000+600000
- 528010 words of font info for 76 fonts, out of 8000000 for 9000
+ 4852 strings out of 479618
+ 69429 string characters out of 2876826
+ 377871 words of memory out of 3000000
+ 21978 multiletter control sequences out of 15000+200000
+ 419153 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,62p,596b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<f:/texlive/texlive/2023/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/cm-super
-/sfbx1200.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-fbx1728.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfb
-x2074.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1
-200.pfb><f:/texlive/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm144
-0.pfb>
-Output written on tetelsor.pdf (4 pages, 152365 bytes).
+ 68i,10n,74p,1043b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\sarka\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\sarka\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\sarka\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\sarka\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\sarka
+\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><D:/Progra
+mok/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programok/miktex/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><D:/Programok/miktex/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><D:/Programok/miktex/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><D:/Programok/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Programok/
+miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programok/miktex/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb>
+Output written on tetelsor.pdf (6 pages, 232300 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
