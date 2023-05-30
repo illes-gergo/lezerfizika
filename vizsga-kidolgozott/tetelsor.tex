@@ -105,9 +105,9 @@ Interakció valószínűsége az atom/molekula/ion és a beeső sugárzás köz�
 Csak a sugárzással járó átmeneteket figyelembe véve:
 \begin{center}
 \begin{align}
-\frac{dN2}{dt} &= \sigma_{abs} N_0 - \frac{N_2}{\tau_{p2}}\\
-\frac{dN1}{dt} &= \frac{N_2}{\tau_{p2}} - \frac{N_1}{\tau_{p1}} - \sigma_{em} N_1\\
-N &= N_0 + N_1 + N_2 \text{\hspace{2 cm}, ahol N konstans}
+\frac{dN_2}{dt} &= \frac{\sigma_{abs}I_{pumpa}}{h\nu_{pumpa}} \left(\frac{g_2}{g_0}N_0-N_2\right) - \frac{N_2}{\tau_{2}}\\
+\frac{dN_1}{dt} &= \phi_{21}\frac{N_2}{\tau_{2}} - \frac{N_1}{\tau_{1}} - \frac{\sigma_{em}I_{opt}}{h\nu_{opt}} \left(N_1-\frac{g_1}{g_0}N_0\right)\\
+N &= N_0 + N_1 + N_2 &\text{, ahol N konstans}
 \end{align}
 \end{center}
 
@@ -139,12 +139,12 @@ Impulzushossz: ps - fs tartományban működnek jellemzően. Körüljárási id�
 Gázlézerek:
 \begin{enumerate}
 \item HeNe: 5:1-től egészen 20:1 arányban tartalmaz héliumot és neont. A tipikus belső nyomás 1 torr (133 Pa). $\lambda$=632.8 nm. Folytonos üzemű. 50 mW optikai teljesítmény.
-\item CO$_2$: $\lambda$=10.6 $\mu$m, legrövidebb impulzushossz $\sim$2 ps. Folytonos teljesítménye maximálisan 100 kW nagyságrendű, impulzus üzem esetén GW nagyságrendű
+\item CO$_2$: $\lambda$=10.6 $\mu$m, legrövidebb impulzushossz $\sim$2 ps. Folytonos teljesítménye maximálisan 100 kW nagyságrendű, impulzus üzem esetén GW nagyságrendű.
 \end{enumerate}	
 Szilárdtest lézerek:	
 \begin{enumerate}
 \item Ti:Sapphire: hangolható 650- és 1100 nm között, általában 800 nm. Al$_2$O$_3$ Ti$^{3+}$ ionokkal szennyezve. Legrövidebb impulzushossz $\sim$10 fs. Folytonos teljesítménye max $\sim$ 2,5 W.
-\item Nd:YAG: anyaga: Nd:Y$_3$Al$_5$O$_{12}$. Frekvenciák 946-, 1120-, 1320-, 
+\item Nd:YAG: anyaga: Nd:Y$_3$Al$_5$O$_{12}$. Frekvenciák 946-, 1120-, 1320-, 1440 nm. Leggyakrabban 1064 nm-es átenet van használatban. Impulzus és folytonos üzem. Q-kapcsolással 10-25 ns $\sim$250 MW pillanatnyi teljesítmény. Jó hatásfokkal többszörzhető frekvencia.
 \end{enumerate}
 
 \section{Hogyan épül fel egy Szabad elektron Lézer (FEL)? Milyen összefüggés van a FEL sugárzási hullámhossza ($\lambda$), az undulátor periodus hossza ($\Lambda$), a wiggler konstans ($a_w$) és a Lorentz Faktor ($\gamma$) között?}
